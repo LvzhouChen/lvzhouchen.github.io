@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta name="generator" content="Bluefish 2.2.12rc2" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Research</title>
+	<link rel="stylesheet" href="style_sheet.css" type="text/css" />
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Lvzhou(Joe) Chen</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="https://lvzhouchen.github.io/CV.pdf">CV</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="notes_slides.html">Notes and Slides</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Publications and preprints</h1>
+</div>
+
+<h2>Stable commutator length (scl)</h2>
+<ul>
+
+<!-- Template
+<li><p>
+	(with <a href="[HP link]">[Coauthor]</a>) 
+	<a href="papers/[File]">[Title]</a>, 
+	[publication status/journal, pages]
+	</p>
+	<p>
+	[<a href="[journal link]">journal</a>]
+	[<a href="[arxiv link]">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('[nickname]'); return false;">abstract</a>]
+	</p>
+	<div id="[nickname]" style='display:none;'>
+	[abstract]
+	</div>
+</p></li>
+-->
+
+<li><p>
+	<a href="papers/kervaire.pdf">The Kervaire conjecture and the minimal complexity of surfaces</a>, 
+	<i>preprint</i>, 30 pages.
+	</p>
+	<p>
+	[<a href="https://arxiv.org/abs/2302.09811">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('kervaire'); return false;">abstract</a>]
+	</p>
+	<div id="kervaire" style='display:none;'>
+	The Kervaire conjecture asserts that adding a generator and then a relator to a nontrivial group always results in a nontrivial group. 
+	See my notes <a href="notes/one-relator-quotients.pdf">here</a> for a brief introduction to related problems in topology and group theory.
+	We introduce new methods from stable commutator length to study this type of problems about nontriviality of one-relator quotients. 
+	Roughly, we show that surfaces in certain HNN extensions bounding a given word have complexity no less than the complexity of its boundary. 
+	As a consequence, for any group G and the quotient Q of G*Z by any proper power w^m with w in G*Z projecting to 1 in Z, the natural map G->Q is injective.
+	Another consequence is a Freiheitssatz theorem for HNN extensions, which in particular implies and gives a new proof of Klaychko's theorem 
+	that confirms the Kervaire conjecture for torsion-free groups.
+	</div>
+</p></li>
+
+
+
+<li><p>
+	(with <a href="https://sites.google.com/view/chloe-avery/home">Chloe I. Avery</a>)
+	<a href="papers/stl.pdf">Stable torsion length</a>, 
+	<i>IMRN</i>, 39 pages.
+	</p>
+	<p>
+	[<a href="https://academic.oup.com/imrn/advance-article/doi/10.1093/imrn/rnac212/6653549?guestAccessKey=59c220d7-4a95-4a4b-a0b0-79ab2f56a763">journal</a>]
+	[<a href="https://arxiv.org/abs/2103.14116">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('stl'); return false;">abstract</a>]
+	</p>
+	<div id="stl" style='display:none;'>
+	The stable torsion length in a group is the stable word length with respect to the set of all torsion elements. 
+	We show that the stable torsion length vanishes in crystallographic groups. 
+	We then give a linear programming algorithm to compute a lower bound for stable torsion length in free products of groups. 
+	Moreover, we obtain an algorithm that exactly computes stable torsion length in free products of finite abelian groups. 
+	The nature of the algorithm shows that stable torsion length is rational in this case. 
+	As applications, we give the first exact computations of stable torsion length for nontrivial examples.
+	</div>
+</p></li>
+
+<li><p>
+	(with <a href="http://www.nicolausheuer.com/">Nicolaus Heuer</a>) 
+	<a href="papers/gap_for_chains.pdf">Stable commutator length in right-angled Artin and Coxeter groups</a>, 
+	<i>J. Lond. Math. Soc.</i>, <b>107</b> (2023), no. 1, 1–60.
+	</p>
+	<p>
+	[<a href="http://doi.org/10.1112/jlms.12680">journal</a>]
+	[<a href="https://arxiv.org/abs/2012.04088">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('gap_for_chains'); return false;">abstract</a>]
+	</p>
+	<div id="gap_for_chains" style='display:none;'>
+	We show groups with spectral gaps for scl of integral chains are preserved under taking finite graph products.
+	In particular, RAAGs and RACGs all have spectral gaps for integral chains. Surprisingly the gap cannot be uniform over all RAAGs although
+	there is a uniform spectral gap 1/2 for elements in RAAGs. 
+	<br>
+	In a second part of this paper we show certain integral chains in RAAGs can be computed by linear programming 
+	and relate them to the fractional stability number of graphs. 
+	In particular this implies that computing scl of elements and chains in RAAGs is NP hard as well as other consequences.
+	<br>
+	All results are proved in the general setting of graph products. In particular all above results hold verbatim for RACGs.	
+	</div>
+</p></li>
+
+<li><p>
+	(with <a href="http://www.nicolausheuer.com/">Nicolaus Heuer</a>) 
+	<a href="papers/sclgap.pdf">Spectral gap of scl in graphs of groups and 3-manifolds</a>, 
+	<i>submitted</i>, 69 pages.
+	</p>
+	<p>
+	[<a href="https://arxiv.org/abs/1910.14146">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('sclgap'); return false;">abstract</a>]
+	</p>
+	<div id="sclgap" style='display:none;'>
+	We show a sharp lower bound 1/2 for the stable commutator length (scl) of any hyperbolic element 
+	in a group acting on a tree, provided that every edge stabilizer is <i>relatively torsion-free</i> in vertex stabilizers. 
+	The sharp bound becomes 1/2-1/n if the edge stabilizers are <i>n-relatively torsion-free</i> in vertex stabilizers.
+	As an application, we show any element in a graph product of torsion-free groups has scl at least 1/2 unless it is supported in a complete subgraph. 
+	This in particular implies a sharp gap 1/2 for all right-angled Artin groups.
+	We also characterize scl in vertex stabilizers, which allows us to show that any 3-manifold group has a spectral gap, that is a constant C such that
+	any element g has either scl(g)>=C or scl(g)=0. We also classify elements whose scl vanish.
+	The method is topological in nature. In many cases we also construct explicit quasimorphisms detecting these lower bounds, including a new short 
+	proof of the gap 1/2 in free groups.
+	</div>
+</p></li>
+
+<li><p>
+	<a href="/papers/sclBS.pdf">Scl in graphs of groups</a>, 
+	<i>Invent. Math.</i>, <b>221</b> (2020), no. 2, 329-396.
+	</p>
+	<p>
+	[<a href="https://link.springer.com/article/10.1007/s00222-020-00951-0">journal</a>]
+	[<a href="https://arxiv.org/abs/1904.08360">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('sclBS'); return false;">abstract</a>]
+	</p>
+	<div id="sclBS" style='display:none;'>
+	Let G be a group acting on a tree with cyclic edge and vertex stabilizers. 
+	Then stable commutator length (scl) is rational in G. 
+	A large portion of the paper concentrates on the special case of Baumslag-Solitar groups, giving a criterion for existence of extremal surfaces, 
+	and proving that scl in so-call "surgery" families varies predictably and converges to scl in free groups. 
+	This is a homological analog of the phenomenon of geometric convergence in hyperbolic Dehn surgery.
+	</div>
+</p></li>
+
+<li><p>
+	<a href="/papers/sclgapfp.pdf">Spectral gap of scl in free products</a>, 
+	<i>Proc. Amer. Math. Soc.</i> <b>146</b> (2018), no.7, 3143-3151.
+	</p>
+	<p>
+	[<a href="https://www.ams.org/journals/proc/2018-146-07/S0002-9939-2018-13899-X/">journal</a>]
+	[<a href="https://arxiv.org/abs/1611.07936">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('sclgapfp'); return false;">abstract</a>]
+	</p>
+	<div id="sclgapfp" style='display:none;'>
+	We show that for a free product of torsion-free groups, scl(g) is at least 1/2 for any g not conjugate into any factor.
+	Similar sharp bounds are obtained assuming the factors have no small torsion. The method is topological and new for scl estimates, 
+	and is pushed further to groups acting on trees in "Spectral gap of scl in graphs of groups and applications" with Nicolaus Heuer. 
+	The method turns out to be closely related to Anton Klyachko's car motion argument used in his elegant proof of the Kervaire conjecture for 
+	free products of torsion-free groups.
+	</div>
+</p></li>
+
+<li><p>
+	<a href="/papers/sclfp.pdf">Scl in free products</a>, 
+   <i>Algebr. Geom. Topol.</i>, <b>18</b> (2018), no. 6, 3279-3313.
+	</p>
+	<p>
+	[<a href="https://msp.org/agt/2018/18-6/agt-v18-n6-p04-s.pdf">journal</a>]
+	[<a href="https://arxiv.org/abs/1611.07463">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('sclfp'); return false;">abstract</a>]
+	</p>
+	<div id="sclfp" style='display:none;'>
+	We show that scl is rational in free products of groups with vanishing scl. 
+	We further prove that the property of isometric embedding with respect to scl is preserved under taking free products. 
+	The method of proof gives a way to compute scl in free products which lets us generalize and derive in a new way several well-known formulas. 
+	Finally we show that scl in free products of cyclic groups behaves in a piecewise quasi-rational way 
+	when the word is fixed but the orders of factors vary.
+	</div>
+</p></li>
+
+</ul>
+
+
+
+
+
+<h2>Big mapping class groups</h2>
+<ul>
+
+<li><p>
+	(with <a href="http://math.uchicago.edu/~dannyc">Danny Calegari</a>) 
+	<a href="/papers/normal.pdf">Normal subgroups of big mapping class groups</a>,
+	<i>Trans. Amer. Math. Soc. Ser. B</i>, <b>9</b> (2022), 957–976.
+	</p>
+	<p>
+	[<a href="https://www.ams.org/journals/btran/2022-09-30/S2330-0000-2022-00108-4/S2330-0000-2022-00108-4.pdf">journal</a>]
+	[<a href="https://arxiv.org/abs/2110.07839">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('normal'); return false;">abstract</a>]
+	</p>
+	<div id="normal" style='display:none;'>
+	Let S be a surface and let Mod(S,K) be the mapping class group of S permuting a Cantor subset K of S. We prove two structure theorems for normal subgroups of Mod(S,K).
+	<br>
+	(Purity:) if S has finite type, every normal subgroup of Mod(S,K) either contains the kernel of the forgetful map to the mapping class group of S, or it is `pure', i.e. it fixes the Cantor set pointwise.
+  	<br>
+	(Inertia:) for any n element subset Q of the Cantor set, there is a forgetful map from the pure subgroup PMod(S,K) of Mod(S,K) to the mapping class group of (S,Q) fixing Q pointwise. If N is a normal subgroup of Mod(S,K) contained in PMod(S,K), its image N_Q is likewise normal. We characterize exactly which finite-type normal subgroups N_Q arise this way.
+  	<br>
+	Several applications and numerous examples are also given.
+	</div>
+</p></li>
+	
+<li><p>
+	(with <a href="https://www.ajrasmussen.com/">Alexander J. Rasmussen</a>) 
+	<a href="papers/2-filling.pdf">Laminations and 2-filling rays on infinite type surfaces</a>, 
+	<i>Ann. Inst. Fourier</i>, to appear, 45 pages.
+	</p>
+	<p>
+	[<a href="https://arxiv.org/abs/2010.06029">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('2-filling'); return false;">abstract</a>]
+	</p>
+	<div id="2-filling" style='display:none;'>
+	We construct the so-called 2-filling rays on surfaces of infinite type, answering a question of Bavard-Walker.
+	These rays are related to the understanding of the Gromov boundary of the loop graph of the surface in terms of geodesic laminations.
+	We give a hands-on contruction as well as one using train tracks and laminations. 
+	The construction is robust and produces a continuum of 2-filling rays in distinct mapping class group orbits.
+	</div>
+</p></li>
+
+<li><p>
+	(with <a href="https://sites.google.com/view/santanaafton/home">Santana Afton</a>,
+	<a href="http://math.uchicago.edu/~dannyc">Danny Calegari</a>,
+	<a href="https://ryleealanza.org/">Rylee Alanza Lyman</a>)
+	<a href="papers/Nielsen.pdf">Nielsen realization for infinite-type surfaces</a>, 
+	<i>Proc. Amer. Math. Soc. </i> <b>149</b> (2021), no. 4, 1791-1799.
+	</p>
+	<p>
+	[<a href="https://www.ams.org/journals/proc/2021-149-04/S0002-9939-2021-15316-1/">journal</a>]
+	[<a href="https://arxiv.org/abs/2002.09760">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('Nielsen'); return false;">abstract</a>]
+	</p>
+	<div id="Nielsen" style='display:none;'>
+	For any orientable surface S of infinite type, we show any finite subgroup of its mapping class group can be realized
+	as a group of isometries for some hyperbolic metric on S. 
+	We use this to classify torsion elements in certain big mapping class groups,
+	and also show that topological groups containing sequences of torsion elements limiting to the identity do not
+	embed continuously into the mapping class group of S.
+	Finally, we show that compact subgroups of the mapping class group of S are finite, and locally compact subgroups are
+	discrete.
+	</div>
+</p></li>
+
+<li><p>
+	(with <a href="http://math.uchicago.edu/~dannyc">Danny Calegari</a>) 
+	<a href="/papers/bigMCGaction.pdf">Big mapping class groups and rigidity of the simple circle</a>,
+	<i>Ergodic Theory and Dynamical Systems</i> <b>41</b> (2021), no. 7, 1961-1987.
+	</p>
+	<p>
+	[<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/abs/big-mapping-class-groups-and-rigidity-of-the-simple-circle/F2B059A17D9F304EE0A76388346B2AFE#https://www.ams.org/journals/proc/2021-149-04/S0002-9939-2021-15316-1/">journal</a>]
+	[<a href="https://arxiv.org/abs/1907.07903">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('bigMCGaction'); return false;">abstract</a>]
+	</p>
+	<div id="bigMCGaction" style='display:none;'>
+	Let G denote the mapping class group of the plane minus a Cantor set. We show that every action of G on the 
+	circle is either trivial or semi-conjugate to a unique minimal faithful action on the so-called simple circle. In the appendix, we compute 
+	the second homology of the mapping class group of the sphere minus a Cantor set.
+	</div>
+</p></li>
+
+</ul>
+
+
+<h2>Linear groups</h2>
+<ul>
+
+<li><p>
+	(with <a href="https://sites.google.com/view/sebastianhurtado/home">Sebastian Hurtado</a>,
+	<a href="https://math.indiana.edu/about/graduate-students/hl63.html">Homin Lee</a>) 
+	<a href="/papers/heightgap.pdf">A height gap in GL(d,\bar{Q}) and almost laws</a>,
+	<i>submitted</i>, 13 pages.
+	</p>
+	<p>
+	[<a href="https://arxiv.org/abs/2110.15404">arXiv</a>]
+	[<a href="#" onclick="toggle_visibility('almost_law'); return false;">abstract</a>]
+	</p>
+	<div id="almost_law" style='display:none;'>
+	We give a short proof of Breuillard's height gap theorem using almost laws, which are word maps whose image lies close to the identity.
+	The height gap theorem can be thought of as a non-abelian analog of Lehmer's Mahler measure problem and has nice applications.
+	</div>
+</p></li>
+
+</ul>
+
+</td>
+</tr>
+</table>
+
+
+
+<script type="text/javascript">
+<!--
+	function toggle_visibility(id) {
+		var e = document.getElementById(id);
+		if(e.style.display == 'block')
+			e.style.display = 'none';
+		else
+		e.style.display = 'block';
+	}
+//-->
+</script>
+
+</body>
+</html>
